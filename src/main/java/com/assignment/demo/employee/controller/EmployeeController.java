@@ -32,10 +32,10 @@ public class EmployeeController {
 		return new ResponseEntity<>(employees, HttpStatus.OK);
 	}
 
-  @ApiOperation(value = "Adds an employee and associates the employee to one or more departments and projects", notes = "The "
+  @ApiOperation(value = "Adds an employee and associates the employee to one or more departments and projects", notes = "This "
   		+ "operation also creates the departments "
-  		+ "and projects if they don't not exist and then associates the employee to the newly"
-  		+ "created Department and/or Project. If the department or project exists already, employee will created "
+  		+ "and projects if they don't  exist and then associates the employee to the newly"
+  		+ "created Department(s) and/or Project(s). If the department or project exists already, employee will created "
   		+ "and associated to the existing department and project")
 	@PostMapping("/employee")
 	public ResponseEntity<Object> addEmployee(@RequestBody EmployeeDto employeeDto) {
