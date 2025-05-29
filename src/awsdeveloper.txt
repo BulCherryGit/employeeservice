@@ -1,1 +1,7 @@
+https://aws.amazon.com/certification/certified-developer-associate/
+
+https://aws.amazon.com/training/
+
+https://explore.skillbuilder.aws/learn/course/external/view/elearning/13367/exam-readiness-aws-certified-developer-associate
+
 https://courses.datacumulus.com/downloads/certified-developer-k92/
